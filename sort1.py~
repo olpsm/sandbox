@@ -1,0 +1,9 @@
+#!/usr/bin/python3.2
+
+Unsort=['CD','DE','AB','BC']
+a=''
+z=''
+for e in Unsort:
+  #print('unsort: ', e)
+  if Unsort.count(e[0])=1:s
+  

@@ -1,0 +1,1072 @@
+interface Loopback0
+ description IPsec Loopback0
+ ip vrf forwarding internet-ipsec
+ ip address 119.225.62.29 255.255.255.255
+interface Loopback5
+ description Test Loopback for BRT APN
+ ip vrf forwarding brtwip3ipsec
+ ip address 10.51.51.200 255.255.255.255
+interface Loopback6
+ description IPsec_Crypto Loopback6
+ ip vrf forwarding internet-ipsec-crypto
+ ip address 119.225.62.30 255.255.255.255
+interface Loopback11
+ description : Loopback for APN brtwip3vpn : #1600380
+ ip vrf forwarding brtwip3vpn
+ ip address 10.48.48.1 255.255.255.255
+ logging event link-status
+ no snmp trap link-status
+interface Loopback20
+ description : Loopback for APN mtudda : #1495890
+ ip vrf forwarding mtudda
+ ip address 10.12.207.161 255.255.255.255
+interface Loopback22
+ description : Loopback for APN skycity.keno : #1829739
+ ip vrf forwarding skycity.keno
+ ip address 10.101.111.1 255.255.255.255
+interface Loopback32
+ description : Loopback for APN ptq-backup : #1545460
+ ip vrf forwarding ptq-backup
+ ip address 10.251.5.1 255.255.255.255
+interface Loopback35
+ description : Loopback for APN WilsecTrial : #1549541
+ ip vrf forwarding WilsecTrial
+ ip address 10.200.10.1 255.255.255.255
+interface Loopback42
+ description : Loopback for APN dcs.qld.gov.au : #1832458
+ ip vrf forwarding dcs.qld.gov.au
+ ip address 10.12.0.1 255.255.255.255
+interface Loopback55
+ description : Loopback for APN mercycare : #1563424
+ ip vrf forwarding mercycare
+ ip address 10.10.1.1 255.255.255.255
+interface Loopback56
+ description : Loopback for APN apnnews : #1561169
+ ip vrf forwarding apnnews
+ ip address 172.28.9.1 255.255.255.255
+interface Loopback64
+ description : Loopback for APN macopt : #1568393
+ ip vrf forwarding macopt
+ ip address 10.50.14.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback66
+ description : Loopback for APN mgcapn : #1567709
+ ip vrf forwarding mgcapn
+ ip address 130.70.163.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback78
+ description : Loopback for APN boralevolve : #1575110
+ ip vrf forwarding boralevolve
+ ip address 10.2.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback82
+ description : Loopback for APN target0 : #1575159
+ ip vrf forwarding target0
+ ip address 10.252.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback95
+ description : Loopback for APN fdiatmw01 : #1583813
+ ip vrf forwarding fdiatmw01
+ ip address 10.29.224.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback98
+ ip vrf forwarding fstonevpn
+ ip address 192.168.1.254 255.255.255.0
+interface Loopback99
+ description : Loopback for for City of Marion : #1611884
+ ip vrf forwarding cityofmarion
+ ip address 192.168.0.254 255.255.255.255
+ no snmp trap link-status
+interface Loopback100
+ description : APN-VRF for INTERNATIONAL LOCATION SYSTEMS PTY LTD : #1879841 : APN- om2mils : Service Type- OI, Dynamic & JWR
+ ip vrf forwarding om2mils
+ ip address 172.20.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback102
+ description : Loopback for APN om2musw2a : #1651544
+ ip vrf forwarding om2musw2a
+ ip address 172.20.0.200 255.255.255.255
+ no snmp trap link-status
+interface Loopback103
+ description : Loopback for APN nexon : #1833176
+ ip vrf forwarding nexon
+ ip address 10.3.2.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback112
+ description : Loopback for APN tnsicomau : #1852000
+ ip vrf forwarding tnsicomau
+ ip address 10.235.24.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback116
+ description : Loopback for APN exego : #1599223
+ ip vrf forwarding exego
+ ip address 172.22.23.84 255.255.255.255
+ no snmp trap link-status
+interface Loopback117
+ description : Loopback for APN superretail : #1832033
+ ip vrf forwarding superretail
+ ip address 192.168.232.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback130
+ description : Loopback for APN brtwip4ipsecs : #1599418
+ ip vrf forwarding brtwip4ipsecs
+ ip address 10.53.53.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback140
+ description : Loopback for APN rcwwip : #1609240
+ ip vrf forwarding rcwwip
+ ip address 192.168.12.253 255.255.255.255
+ no snmp trap link-status
+interface Loopback143
+ description : Loopback for APN ba123 : #1833110
+ ip vrf forwarding ba123
+ ip address 10.64.252.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback155
+ description : Loopback for APN tracq : #1859255
+ ip vrf forwarding tracq
+ ip address 192.168.108.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback157
+ description : Loopback for APN lpi-apn : #1636730
+ ip vrf forwarding lpi-apn
+ ip address 10.5.72.185 255.255.255.255
+ no snmp trap link-status
+interface Loopback177
+ description : Loopback for APN cio.wa.gov.au : #1659866
+ ip vrf forwarding cio.wa.gov.au
+ ip address 172.16.20.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback178
+ description : Loopback for APN bcccbase : #1659125
+ ip vrf forwarding bcccbase
+ ip address 10.242.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback207
+ description : Loopback for APN dtzcmbs : #1724069
+ ip vrf forwarding dtzcmbs
+ ip address 10.13.128.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback212
+ description : Loopback for APN scsvid : #1805373
+ ip vrf forwarding scsvid
+ ip address 10.3.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback226
+ description : Loopback for APN svha-4g : #1775196
+ ip vrf forwarding svha-4g
+ ip address 10.57.60.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback236
+ description : Loopback for APN m2mvpn2scr : #1803009
+ ip vrf forwarding m2mvpn2scr
+ ip address 10.100.107.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback238
+ description : Loopback for APN ta-poc-wip : #1807712
+ ip vrf forwarding ta-poc-wip
+ ip address 10.15.0.129 255.255.255.255
+ no snmp trap link-status
+interface Loopback241
+ description : Loopback for APN workskiloptus : #1810430
+ ip vrf forwarding workskiloptus
+ ip address 172.22.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback250
+ description : Loopback for APN om2mcom : #1854032
+ ip vrf forwarding om2mcom
+ ip address 10.253.252.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback254
+ description : IFMS#12259249 : om2mdtz fault
+ ip vrf forwarding om2mdtz
+ ip address 10.64.0.254 255.255.255.255
+interface Loopback255
+ description : Loopback for APN obmdg-static : #1686929
+ ip vrf forwarding obmdg-static
+ ip address 10.10.10.10 255.255.255.255
+ no snmp trap link-status
+interface Loopback261
+ ip vrf forwarding cl-bingara
+ ip address 192.168.3.252 255.255.255.255
+interface Loopback276
+ description : Loopback for APN conocowip : #1939890
+ ip vrf forwarding conocowip
+ ip address 10.201.8.65 255.255.255.255
+ no snmp trap link-status
+interface Loopback283
+ description : Loopback for APN aimos : #3576378
+ ip vrf forwarding aimos
+ ip address 10.194.87.254 255.255.255.255
+ no snmp trap link-status
+interface Loopback284
+ description : Loopback for APN comba-cms : #3380100
+ ip vrf forwarding comba-cms
+ ip address 10.194.91.254 255.255.255.255
+ no snmp trap link-status
+interface Loopback305
+ description : Loopback for APN dataexpress : #5026700
+ ip vrf forwarding dataexpress
+ ip address 10.200.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5011
+ description : Loopback for VRF brtwipplus : #1719181
+ ip vrf forwarding brtwipplus
+ ip address 10.58.58.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5013
+ description : Loopback for VRF brtwipplus2 : #1743313
+ ip vrf forwarding brtwipplus2
+ ip address 10.59.59.129 255.255.255.255
+ no snmp trap link-status
+interface Loopback5014
+ description : Loopback for VRF brtwipplus2-mgmt : #1743313
+ ip vrf forwarding brtwipplus2-mgmt
+ ip address 10.59.59.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5015
+ description : Loopback for VRF brtwipplus2-aw-mgmt : #1743313
+ ip vrf forwarding brtwipplus2-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5017
+ description : Loopback for VRF toysrus : #1827251
+ ip vrf forwarding toysrus
+ no ip address
+ no snmp trap link-status
+interface Loopback5018
+ description : Loopback for VRF toysrus-mgmt : #1827251
+ ip vrf forwarding toysrus-mgmt
+ ip address 10.60.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5019
+ description : Loopback for VRF toysrus-aw-mgmt : #1827251
+ ip vrf forwarding toysrus-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5020
+ description : Loopback for VRF Accolade_Wines : #1840258
+ ip vrf forwarding Accolade_Wines
+ no ip address
+ no snmp trap link-status
+interface Loopback5021
+ description : Loopback for VRF Accolade_Wines-mgmt : #1840258
+ ip vrf forwarding Accolade_Wines-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5022
+ description : Loopback for VRF Accolade_Wines-aw-mgmt : #1840258
+ ip vrf forwarding Accolade_Wines-aw-mgmt
+ ip address 172.16.37.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5023
+ description : Loopback for VRF CHUBBFI_1 : #1843753
+ ip vrf forwarding CHUBBFI_1
+ ip address 172.17.172.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5024
+ description : Loopback for VRF CHUBBFI_1-mgmt : #1843753
+ ip vrf forwarding CHUBBFI_1-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5025
+ description : Loopback for VRF CHUBBFI_1-aw-mgmt : #1843753
+ ip vrf forwarding CHUBBFI_1-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5026
+ description : Loopback for VRF CHUBB_2 : #1853734
+ ip vrf forwarding CHUBB_2
+ ip address 172.21.254.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5027
+ description : Loopback for VRF CHUBB_2-mgmt : #1853734
+ ip vrf forwarding CHUBB_2-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5028
+ description : Loopback for VRF CHUBB_2-aw-mgmt : #1853734
+ ip vrf forwarding CHUBB_2-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5029
+ description : Loopback for VRF fhlwip : #1854626
+ ip vrf forwarding fhlwip
+ ip address 172.16.34.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5030
+ description : Loopback for VRF fhlwip-mgmt : #1854626
+ ip vrf forwarding fhlwip-mgmt
+ ip address 172.160.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5031
+ description : Loopback for VRF fhlwip-aw-mgmt : #1854626
+ ip vrf forwarding fhlwip-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5032
+ description : Loopback for VRF MTCWIP : #1854629
+ ip vrf forwarding MTCWIP
+ no ip address
+ no snmp trap link-status
+interface Loopback5033
+ description : Loopback for VRF MTCWIP-mgmt : #1854629
+ ip vrf forwarding MTCWIP-mgmt
+ ip address 192.168.23.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5034
+ description : Loopback for VRF MTCWIP-aw-mgmt : #1854629
+ ip vrf forwarding MTCWIP-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5035
+ description : Loopback for VRF GlobalX : #1858577
+ ip vrf forwarding GlobalX
+ no ip address
+ no snmp trap link-status
+interface Loopback5036
+ description : Loopback for VRF GlobalX-mgmt : #1858577
+ ip vrf forwarding GlobalX-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5037
+ description : Loopback for VRF GlobalX-aw-mgmt : #1858577
+ ip vrf forwarding GlobalX-aw-mgmt
+ ip address 192.168.64.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5038
+ description : Loopback for VRF BLKMOR : #1862389
+ ip vrf forwarding BLKMOR
+ ip address 192.168.110.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5039
+ description : Loopback for VRF BLKMOR-mgmt : #1862389
+ ip vrf forwarding BLKMOR-mgmt
+ ip address 10.10.11.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5040
+ description : Loopback for VRF BLKMOR-aw-mgmt : #1862389
+ ip vrf forwarding BLKMOR-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5041
+ description : Loopback for VRF DIBP : #1863986
+ ip vrf forwarding DIBP
+ ip address 10.63.76.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5042
+ description : Loopback for VRF DIBP-mgmt : #1863986
+ ip vrf forwarding DIBP-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5043
+ description : Loopback for VRF DIBP-aw-mgmt : #1863986
+ ip vrf forwarding DIBP-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5044
+ description : Loopback for VRF VOITH : #1872918
+ ip vrf forwarding VOITH
+ ip address 192.168.251.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5045
+ description : Loopback for VRF VOITH-mgmt : #1872918
+ ip vrf forwarding VOITH-mgmt
+ ip address 192.168.250.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5046
+ description : Loopback for VRF VOITH-aw-mgmt : #1872918
+ ip vrf forwarding VOITH-aw-mgmt
+ ip address 192.168.252.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5047
+ description : Loopback for VRF MirvacWIP : #1870195
+ ip vrf forwarding MirvacWIP
+ ip address 10.4.15.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5048
+ description : Loopback for VRF MirvacWIP-mgmt : #1870195
+ ip vrf forwarding MirvacWIP-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5049
+ description : Loopback for VRF MirvacWIP-aw-mgmt : #1870195
+ ip vrf forwarding MirvacWIP-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5053
+ description : Loopback for VRF ARTHURJ_1 : #1875808
+ ip vrf forwarding ARTHURJ_1
+ ip address 10.213.253.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5054
+ description : Loopback for VRF ARTHURJ_1-mgmt : #1875808
+ ip vrf forwarding ARTHURJ_1-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5055
+ description : Loopback for VRF ARTHURJ_1-aw-mgmt : #1875808
+ ip vrf forwarding ARTHURJ_1-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5056
+ description : Loopback for VRF USGBoralWIPPlusVRF : #1877768
+ ip vrf forwarding USGBoralWIPPlusVRF
+ ip address 172.16.252.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5057
+ description : Loopback for VRF USGBoralWIPPlusVRF-mgmt : #1877768
+ ip vrf forwarding USGBoralWIPPlusVRF-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5058
+ description : Loopback for VRF USGBoralWIPPlusVRF-aw-mgmt : #1877768
+ ip vrf forwarding USGBoralWIPPlusVRF-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5059
+ description : Loopback for VRF SLATERWIPVPN : #1879957
+ ip vrf forwarding SLATERWIPVPN
+ no ip address
+ no snmp trap link-status
+interface Loopback5060
+ description : Loopback for VRF SLATERWIPVPN-mgmt : #1879957
+ ip vrf forwarding SLATERWIPVPN-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5061
+ description : Loopback for VRF SLATERWIPVPN-aw-mgmt : #1879957
+ ip vrf forwarding SLATERWIPVPN-aw-mgmt
+ ip address 10.32.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5062
+ description : Loopback for VRF SERVICES : #1891840
+ ip vrf forwarding SERVICES
+ ip address 172.20.12.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5063
+ description : Loopback for VRF SERVICES-mgmt : #1891840
+ ip vrf forwarding SERVICES-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5064
+ description : Loopback for VRF SERVICES-aw-mgmt : #1891840
+ ip vrf forwarding SERVICES-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5065
+ description : Loopback for VRF LGWIP_1 : #1903061
+ ip vrf forwarding LGWIP_1
+ ip address 10.2.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5066
+ description : Loopback for VRF LGWIP_1-mgmt : #1903061
+ ip vrf forwarding LGWIP_1-mgmt
+ ip address 10.1.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5067
+ description : Loopback for VRF LGWIP_1-aw-mgmt : #1903061
+ ip vrf forwarding LGWIP_1-aw-mgmt
+ ip address 10.3.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5068
+ description : Loopback for VRF REDLANDWIP : #1905263
+ ip vrf forwarding REDLANDWIP
+ no ip address
+ no snmp trap link-status
+interface Loopback5069
+ description : Loopback for VRF REDLANDWIP-mgmt : #1905263
+ ip vrf forwarding REDLANDWIP-mgmt
+ ip address 192.168.10.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5070
+ description : Loopback for VRF REDLANDWIP-aw-mgmt : #1905263
+ ip vrf forwarding REDLANDWIP-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5071
+ description : Loopback for VRF ANZWIPBACKUP1 : #1909753
+ ip vrf forwarding ANZWIPBACKUP1
+ ip address 10.98.234.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5072
+ description : Loopback for VRF ANZWIPBACKUP1-mgmt : #1909753
+ ip vrf forwarding ANZWIPBACKUP1-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5073
+ description : Loopback for VRF ANZWIPBACKUP1-aw-mgmt : #1909753
+ ip vrf forwarding ANZWIPBACKUP1-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5074
+ description : Loopback for VRF Electroboard_Wip_VPN : #1909387
+ ip vrf forwarding Electroboard_Wip_VPN
+ no ip address
+ no snmp trap link-status
+interface Loopback5075
+ description : Loopback for VRF Electroboard_Wip_VPN-mgmt : #1909387
+ ip vrf forwarding Electroboard_Wip_VPN-mgmt
+ ip address 192.168.240.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5076
+ description : Loopback for VRF Electroboard_Wip_VPN-aw-mgmt : #1909387
+ ip vrf forwarding Electroboard_Wip_VPN-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5077
+ description : Loopback for VRF FDCWIP : #1927401
+ ip vrf forwarding FDCWIP
+ no ip address
+ no snmp trap link-status
+interface Loopback5078
+ description : Loopback for VRF FDCWIP-mgmt : #1927401
+ ip vrf forwarding FDCWIP-mgmt
+ ip address 172.17.1.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5079
+ description : Loopback for VRF FDCWIP-aw-mgmt : #1927401
+ ip vrf forwarding FDCWIP-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5080
+ description : Loopback for VRF HOYTS_WIPPLUS : #1942257
+ ip vrf forwarding HOYTS_WIPPLUS
+ no ip address
+ no snmp trap link-status
+interface Loopback5081
+ description : Loopback for VRF HOYTS_WIPPLUS-mgmt : #1942257
+ ip vrf forwarding HOYTS_WIPPLUS-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5082
+ description : Loopback for VRF HOYTS_WIPPLUS-aw-mgmt : #1942257
+ ip vrf forwarding HOYTS_WIPPLUS-aw-mgmt
+ ip address 10.99.99.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5083
+ description : Loopback for VRF BMW_APAC : #1943135
+ ip vrf forwarding BMW_APAC
+ ip address 10.186.189.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5084
+ description : Loopback for VRF BMW_APAC-mgmt : #1943135
+ ip vrf forwarding BMW_APAC-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5085
+ description : Loopback for VRF BMW_APAC-aw-mgmt : #1943135
+ ip vrf forwarding BMW_APAC-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5086
+ description : Loopback for VRF TENIXSOLU : #1944546
+ ip vrf forwarding TENIXSOLU
+ no ip address
+ no snmp trap link-status
+interface Loopback5087
+ description : Loopback for VRF TENIXSOLU-mgmt : #1944546
+ ip vrf forwarding TENIXSOLU-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5088
+ description : Loopback for VRF TENIXSOLU-aw-mgmt : #3691760
+ ip vrf forwarding TENIXSOLU-aw-mgmt
+ ip address 10.250.14.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5089
+ description : Loopback for VRF JLL : #1945007
+ ip vrf forwarding JLL
+ ip address 10.49.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5090
+ description : Loopback for VRF JLL-mgmt : #1945007
+ ip vrf forwarding JLL-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5091
+ description : Loopback for VRF JLL-aw-mgmt : #1945007
+ ip vrf forwarding JLL-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5092
+ description : Loopback for VRF Bosch_VCE : #1949101
+ ip vrf forwarding Bosch_VCE
+ no ip address
+ no snmp trap link-status
+interface Loopback5093
+ description : Loopback for VRF Bosch_VCE-mgmt : #1949101
+ ip vrf forwarding Bosch_VCE-mgmt
+ ip address 192.168.100.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5094
+ description : Loopback for VRF Bosch_VCE-aw-mgmt : #1949101
+ ip vrf forwarding Bosch_VCE-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5095
+ description : Loopback for VRF DJVIC : #1949004
+ ip vrf forwarding DJVIC
+ ip address 10.16.255.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5096
+ description : Loopback for VRF DJVIC-mgmt : #1949004
+ ip vrf forwarding DJVIC-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5097
+ description : Loopback for VRF DJVIC-aw-mgmt : #1949004
+ ip vrf forwarding DJVIC-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5098
+ description : Loopback for VRF CRAWFORD : #1949499
+ ip vrf forwarding CRAWFORD
+ ip address 192.168.99.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5099
+ description : Loopback for VRF CRAWFORD-mgmt : #1949499
+ ip vrf forwarding CRAWFORD-mgmt
+ ip address 192.168.100.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5100
+ description : Loopback for VRF CRAWFORD-aw-mgmt : #1949499
+ ip vrf forwarding CRAWFORD-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5101
+ description : Loopback for VRF FPCWIPPLUSVRF : #3579200
+ ip vrf forwarding FPCWIPPLUSVRF
+ no ip address
+ no snmp trap link-status
+interface Loopback5102
+ description : Loopback for VRF FPCWIPPLUSVRF-mgmt : #3579200
+ ip vrf forwarding FPCWIPPLUSVRF-mgmt
+ ip address 10.253.100.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5103
+ description : Loopback for VRF FPCWIPPLUSVRF-aw-mgmt : #3579200
+ ip vrf forwarding FPCWIPPLUSVRF-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5104
+ description : Loopback for VRF IMCD_AUSTR1 : #3776960
+ ip vrf forwarding IMCD_AUSTR1
+ no ip address
+ no snmp trap link-status
+interface Loopback5105
+ description : Loopback for VRF IMCD_AUSTR1-mgmt : #3776960
+ ip vrf forwarding IMCD_AUSTR1-mgmt
+ ip address 10.0.10.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5106
+ description : Loopback for VRF IMCD_AUSTR1-aw-mgmt : #3776960
+ ip vrf forwarding IMCD_AUSTR1-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5107
+ description : Loopback for VRF TexaspeakVPN : #3758904
+ ip vrf forwarding TexaspeakVPN
+ no ip address
+ no snmp trap link-status
+interface Loopback5108
+ description : Loopback for VRF TexaspeakVPN-mgmt : #3758904
+ ip vrf forwarding TexaspeakVPN-mgmt
+ ip address 192.168.100.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5109
+ description : Loopback for VRF TexaspeakVPN-aw-mgmt : #3758904
+ ip vrf forwarding TexaspeakVPN-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5110
+ description : Loopback for VRF BUPA_AUS : #4579644
+ ip vrf forwarding BUPA_AUS
+ ip address 10.65.191.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5111
+ description : Loopback for VRF BUPA_AUS-mgmt : #4579644
+ ip vrf forwarding BUPA_AUS-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5112
+ description : Loopback for VRF BUPA_AUS-aw-mgmt : #4579644
+ ip vrf forwarding BUPA_AUS-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5113
+ description : Loopback for VRF Spotlight : #4584265
+ ip vrf forwarding Spotlight
+ no ip address
+ no snmp trap link-status
+interface Loopback5114
+ description : Loopback for VRF Spotlight-mgmt : #4584265
+ ip vrf forwarding Spotlight-mgmt
+ ip address 10.61.219.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5115
+ description : Loopback for VRF Spotlight-aw-mgmt : #4584265
+ ip vrf forwarding Spotlight-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5116
+ description : Loopback for VRF coates-wipvpn1 : #4657506
+ ip vrf forwarding coates-wipvpn1
+ ip address 10.96.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5117
+ description : Loopback for VRF coates-wipvpn1-mgmt : #4657506
+ ip vrf forwarding coates-wipvpn1-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5118
+ description : Loopback for VRF coates-wipvpn1-aw-mgmt : #4657506
+ ip vrf forwarding coates-wipvpn1-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5119
+ description : Loopback for VRF EDL_OPTUS : #4561059
+ ip vrf forwarding EDL_OPTUS
+ ip address 10.2.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5120
+ description : Loopback for VRF EDL_OPTUS-mgmt : #4561059
+ ip vrf forwarding EDL_OPTUS-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5121
+ description : Loopback for VRF EDL_OPTUS-aw-mgmt : #4561059
+ ip vrf forwarding EDL_OPTUS-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5122
+ description : Loopback for VRF UGL_WIPVPN : #4582326
+ ip vrf forwarding UGL_WIPVPN
+ ip address 10.5.254.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5123
+ description : Loopback for VRF UGL_WIPVPN-mgmt : #4582326
+ ip vrf forwarding UGL_WIPVPN-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5124
+ description : Loopback for VRF UGL_WIPVPN-aw-mgmt : #4582326
+ ip vrf forwarding UGL_WIPVPN-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5125
+ description : Loopback for VRF Plumbers_WIPPlus : #4675573
+ ip vrf forwarding Plumbers_WIPPlus
+ no ip address
+ no snmp trap link-status
+interface Loopback5126
+ description : Loopback for VRF Plumbers_WIPPlus-mgmt : #4675573
+ ip vrf forwarding Plumbers_WIPPlus-mgmt
+ ip address 10.99.99.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5127
+ description : Loopback for VRF Plumbers_WIPPlus-aw-mgmt : #4675573
+ ip vrf forwarding Plumbers_WIPPlus-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5128
+ description : Loopback for VRF NRMA : #4724609
+ ip vrf forwarding NRMA
+ no ip address
+ no snmp trap link-status
+interface Loopback5129
+ description : Loopback for VRF NRMA-mgmt : #4724609
+ ip vrf forwarding NRMA-mgmt
+ ip address 172.16.21.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5130
+ description : Loopback for VRF NRMA-aw-mgmt : #4724609
+ ip vrf forwarding NRMA-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5131
+ description : Loopback for VRF UnitingWAN : #4638076
+ ip vrf forwarding UnitingWAN
+ no ip address
+ no snmp trap link-status
+interface Loopback5132
+ description : Loopback for VRF UnitingWAN-mgmt : #4638076
+ ip vrf forwarding UnitingWAN-mgmt
+ ip address 10.1.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5133
+ description : Loopback for VRF UnitingWAN-aw-mgmt : #4638076
+ ip vrf forwarding UnitingWAN-aw-mgmt
+ ip address 10.0.8.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5134
+ description : Loopback for VRF DIBPCCTV : #4857737
+ ip vrf forwarding DIBPCCTV
+ ip address 10.63.42.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5135
+ description : Loopback for VRF DIBPCCTV-mgmt : #4857737
+ ip vrf forwarding DIBPCCTV-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5136
+ description : Loopback for VRF DIBPCCTV-aw-mgmt : #4857737
+ ip vrf forwarding DIBPCCTV-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5137
+ description : Loopback for VRF Spotlight-s-mgmt : #4584265
+ ip vrf forwarding Spotlight-s-mgmt
+ ip address 192.168.8.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5138
+ description : Loopback for VRF DAWRWIPPLUSVRF : #4825718
+ ip vrf forwarding DAWRWIPPLUSVRF
+ ip address 10.254.33.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5139
+ description : Loopback for VRF DAWRWIPPLUSVRF-mgmt : #4825718
+ ip vrf forwarding DAWRWIPPLUSVRF-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5140
+ description : Loopback for VRF DAWRWIPPLUSVRF-aw-mgmt : #4825718
+ ip vrf forwarding DAWRWIPPLUSVRF-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5141
+ description : Loopback for VRF DPTI_SA_Corporate : #4888777
+ ip vrf forwarding DPTI_SA_Corporate
+ ip address 172.23.144.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5142
+ description : Loopback for VRF DPTI_SA_Corporate-mgmt : #4888777
+ ip vrf forwarding DPTI_SA_Corporate-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5143
+ description : Loopback for VRF DPTI_SA_Corporate-aw-mgmt : #4888777
+ ip vrf forwarding DPTI_SA_Corporate-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5144
+ description : Loopback for VRF Rivaleafarm : #4870121
+ ip vrf forwarding Rivaleafarm
+ no ip address
+ no snmp trap link-status
+interface Loopback5145
+ description : Loopback for VRF Rivaleafarm-mgmt : #4870121
+ ip vrf forwarding Rivaleafarm-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5146
+ description : Loopback for VRF Rivaleafarm-aw-mgmt : #4870121
+ ip vrf forwarding Rivaleafarm-aw-mgmt
+ ip address 172.17.0.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5147
+ description : Loopback for VRF DCS_PTS_VRF : #4911758
+ ip vrf forwarding DCS_PTS_VRF
+ no ip address
+ no snmp trap link-status
+interface Loopback5148
+ description : Loopback for VRF DCS_PTS_VRF-mgmt : #4911758
+ ip vrf forwarding DCS_PTS_VRF-mgmt
+ ip address 10.1.1.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5149
+ description : Loopback for VRF DCS_PTS_VRF-aw-mgmt : #4911758
+ ip vrf forwarding DCS_PTS_VRF-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5150
+ description : Loopback for VRF Pepkor_Sou01 : #4980755
+ ip vrf forwarding Pepkor_Sou01
+ no ip address
+ no snmp trap link-status
+interface Loopback5151
+ description : Loopback for VRF Pepkor_Sou01-mgmt : #4980755
+ ip vrf forwarding Pepkor_Sou01-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5152
+ description : Loopback for VRF Pepkor_Sou01-aw-mgmt : #4980755
+ ip vrf forwarding Pepkor_Sou01-aw-mgmt
+ ip address 10.224.16.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5153
+ description : Loopback for VRF SA_GOV : #5001412
+ ip vrf forwarding SA_GOV
+ ip address 172.23.240.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5154
+ description : Loopback for VRF SA_GOV-mgmt : #5001412
+ ip vrf forwarding SA_GOV-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5155
+ description : Loopback for VRF SA_GOV-aw-mgmt : #5001412
+ ip vrf forwarding SA_GOV-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5156
+ description : Loopback for VRF AAL_1 : #5036974
+ ip vrf forwarding AAL_1
+ no ip address
+ no snmp trap link-status
+interface Loopback5157
+ description : Loopback for VRF AAL_1-mgmt : #5036974
+ ip vrf forwarding AAL_1-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5158
+ description : Loopback for VRF AAL_1-aw-mgmt : #5036974
+ ip vrf forwarding AAL_1-aw-mgmt
+ ip address 10.255.255.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5159
+ description : Loopback for VRF Carnival_1 : #5044750
+ ip vrf forwarding Carnival_1
+ no ip address
+ no snmp trap link-status
+interface Loopback5160
+ description : Loopback for VRF Carnival_1-mgmt : #5044750
+ ip vrf forwarding Carnival_1-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5161
+ description : Loopback for VRF Carnival_1-aw-mgmt : #5044750
+ ip vrf forwarding Carnival_1-aw-mgmt
+ ip address 172.31.188.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5162
+ description : Loopback for VRF WIP_VPN_Steinhoff_Realm : #5004325
+ ip vrf forwarding WIP_VPN_Steinhoff_Realm
+ no ip address
+ no snmp trap link-status
+interface Loopback5163
+ description : Loopback for VRF WIP_VPN_Steinhoff_Realm-mgmt : #5004325
+ ip vrf forwarding WIP_VPN_Steinhoff_Realm-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5164
+ description : Loopback for VRF WIP_VPN_Steinhoff_Realm-aw-mgmt : #5004325
+ ip vrf forwarding WIP_VPN_Steinhoff_Realm-aw-mgmt
+ ip address 10.50.252.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5165
+ description : Loopback for VRF VRF_SS_WIP_VPN : #5032474
+ ip vrf forwarding VRF_SS_WIP_VPN
+ no ip address
+ no snmp trap link-status
+interface Loopback5166
+ description : Loopback for VRF VRF_SS_WIP_VPN-mgmt : #5032474
+ ip vrf forwarding VRF_SS_WIP_VPN-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5167
+ description : Loopback for VRF VRF_SS_WIP_VPN-aw-mgmt : #5032474
+ ip vrf forwarding VRF_SS_WIP_VPN-aw-mgmt
+ ip address 172.22.248.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5168
+ description : Loopback for VRF RondoWIP : #5022448
+ ip vrf forwarding RondoWIP
+ no ip address
+ no snmp trap link-status
+interface Loopback5169
+ description : Loopback for VRF RondoWIP-mgmt : #5022448
+ ip vrf forwarding RondoWIP-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5170
+ description : Loopback for VRF RondoWIP-aw-mgmt : #5022448
+ ip vrf forwarding RondoWIP-aw-mgmt
+ ip address 10.10.20.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5171
+ description : Loopback for VRF FXAWIP4G : #4875711
+ ip vrf forwarding FXAWIP4G
+ no ip address
+ no snmp trap link-status
+interface Loopback5172
+ description : Loopback for VRF FXAWIP4G-mgmt : #4875711
+ ip vrf forwarding FXAWIP4G-mgmt
+ ip address 10.40.40.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback5173
+ description : Loopback for VRF FXAWIP4G-aw-mgmt : #4875711
+ ip vrf forwarding FXAWIP4G-aw-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5174
+ description : Loopback for VRF TOWNSVILLE2 : #4906022
+ ip vrf forwarding TOWNSVILLE2
+ no ip address
+ no snmp trap link-status
+interface Loopback5175
+ description : Loopback for VRF TOWNSVILLE2-mgmt : #4906022
+ ip vrf forwarding TOWNSVILLE2-mgmt
+ no ip address
+ no snmp trap link-status
+interface Loopback5176
+ description : Loopback for VRF TOWNSVILLE2-aw-mgmt : #4906022
+ ip vrf forwarding TOWNSVILLE2-aw-mgmt
+ ip address 172.18.5.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback9998
+ description IFMS 15396372 Loopback with customer permission
+ ip vrf forwarding chubbtsg
+ ip address 192.168.12.254 255.255.255.255
+interface Loopback9999
+ description : Special Loopback for APN transactplus : #1897562 related to PTA device ping IFMS12429179
+ ip vrf forwarding transactplus
+ ip address 172.22.80.250 255.255.255.255
+ no snmp trap link-status
+interface Loopback10006
+ ip vrf forwarding obmdg-dynamic
+ ip address 10.1.0.10 255.255.255.255
+interface Loopback10023
+ ip vrf forwarding om2mima
+ ip address 192.242.0.230 255.255.255.255
+interface Loopback20003
+ ip vrf forwarding melvilleapn
+ ip address 192.168.170.1 255.255.255.0
+interface Loopback20009
+ description : IPSec Tunnel for APN tieman : #1535532 loopback 200009 tmieman
+ ip vrf forwarding tieman
+ ip address 10.136.3.55 255.255.255.255
+interface Loopback100001
+ description VRF brtwip3ipsecd loopback address
+ ip vrf forwarding brtwip3ipsecd
+ ip address 10.10.30.1 255.255.255.255
+interface Loopback100031
+ ip vrf forwarding brtwip3vpndsae1
+ ip address 10.49.50.200 255.255.255.255
+interface Loopback100032
+ ip vrf forwarding om2mdigeu
+ ip address 10.1.255.254 255.255.255.255
+interface Loopback100033
+ ip vrf forwarding myfleet
+ no ip address
+interface Loopback100035
+ ip vrf forwarding om2mcou
+ ip address 10.32.191.254 255.255.255.255
+interface Loopback100036
+ ip vrf forwarding om2mbrt2sae
+ ip address 10.49.50.224 255.255.255.255
+interface Loopback100037
+ ip vrf forwarding om2mact1
+ ip address 192.168.130.254 255.255.255.255
+interface Loopback100038
+ ip vrf forwarding brtwip3vpndsae2
+ ip address 10.10.10.1 255.255.255.255
+interface Loopback100039
+ ip vrf forwarding gaplogistics
+ ip address 10.1.20.5 255.255.255.255
+interface Loopback100050
+ ip vrf forwarding om2mtga
+ ip address 10.197.32.255 255.255.248.0
+interface Loopback100056
+ ip vrf forwarding imarda-au-optus
+ ip address 10.5.13.99 255.255.255.255

@@ -1,0 +1,438 @@
+interface Loopback1
+ description Optus Backbone Loopback1 Inband Managment
+ ip address 172.24.212.1 255.255.255.255
+interface Loopback2
+ description L2TP Anycast Address
+ ip address 172.24.212.3 255.255.255.255
+interface Loopback3
+ description Test Loopback
+ ip address 172.24.212.4 255.255.255.255
+interface Loopback12
+ description : Loopback for APN brtwip3vpnd : #1599410
+ ip address 172.22.23.1 255.255.255.255
+ no snmp trap link-status
+interface Loopback13
+ description : Loopback for APN brtwip3ipsecd : #1599412
+ ip address 172.22.23.2 255.255.255.255
+ no snmp trap link-status
+interface Loopback15
+ description : Loopback for APN melvilleapn : #1466898
+ ip address 172.22.23.3 255.255.255.255
+interface Loopback18
+ description : Loopback for APN om2mgsm4 : #1484429
+ ip address 172.22.23.6 255.255.255.255
+ no snmp trap link-status
+interface Loopback21
+ description : Loopback for APN om2mpub1 : #1519394
+ ip address 172.22.23.7 255.255.255.255
+interface Loopback26
+ description : Loopback for APN alaservitrax : #1534921
+ ip address 172.22.23.9 255.255.255.255
+interface Loopback28
+ description : Loopback for APN scsi : #1879795
+ ip address 172.22.23.4 255.255.255.255
+ no logging event link-status
+ no snmp trap link-status
+interface Loopback31
+ description : Loopback for APN ptq-mobile : #1829774
+ ip address 172.22.23.22 255.255.255.255
+interface Loopback33
+ description : Loopback for APN Om2mscsi : #1879726
+ ip address 172.22.23.11 255.255.255.255
+interface Loopback36
+ description : Loopback for APN om2m2113 : #1550529
+ ip address 172.22.23.12 255.255.255.255
+interface Loopback38
+ description : Loopback for APN mfb : #1830425
+ ip address 172.22.23.14 255.255.255.255
+interface Loopback40
+ description : Loopback for APN om2m2000 : #1879838
+ ip address 172.22.23.15 255.255.255.255
+interface Loopback45
+ description : Loopback for APN toll : #1844721
+ ip address 172.22.23.17 255.255.255.255
+ no logging event link-status
+ no snmp trap link-status
+interface Loopback46
+ description : Loopback for APN toll-ras : #1844991
+ ip address 172.22.23.18 255.255.255.255
+interface Loopback47
+ description : Loopback for APN peterswip : #1829973
+ ip address 172.22.23.19 255.255.255.255
+interface Loopback50
+ description : Loopback for APN blackmores.com.au : #1561117
+ ip address 172.22.23.21 255.255.255.255
+interface Loopback58
+ no ip address
+interface Loopback59
+ description : Loopback for APN deloitte : #1564605
+ ip address 172.22.23.35 255.255.255.255
+interface Loopback62
+ description : Loopback for APN rteckapn : #1879733
+ ip address 172.22.23.23 255.255.255.255
+interface Loopback63
+ description : Loopback for APN healthworld : #1829979
+ ip address 172.22.23.24 255.255.255.255
+ no snmp trap link-status
+interface Loopback67
+ description : Loopback for APN ci : #1568418
+ ip address 172.22.23.25 255.255.255.255
+interface Loopback71
+ description : Loopback for APN calora : #1880013
+ ip address 172.22.23.26 255.255.255.255
+interface Loopback72
+ description : Loopback for APN sc2000 : #1880021
+ ip address 172.22.23.27 255.255.255.255
+interface Loopback73
+ description : Loopback for APN sc2113 : #1880029
+ ip address 172.22.23.28 255.255.255.255
+interface Loopback75
+ description : Loopback for APN om2mblo : #1574507
+ ip address 172.22.23.29 255.255.255.255
+interface Loopback76
+ description : Loopback for APN aotgroup : #1575150
+ ip address 172.22.23.30 255.255.255.255
+interface Loopback77
+ description : Loopback for APN bluescope-wip : #1575276
+ ip address 172.22.23.31 255.255.255.255
+ no snmp trap link-status
+interface Loopback79
+ description : Loopback for APN boral : #1575349
+ ip address 172.22.23.43 255.255.255.255
+ no snmp trap link-status
+interface Loopback80
+ description : Loopback for APN boral-2 : #1575352
+ ip address 172.22.23.44 255.255.255.255
+ no snmp trap link-status
+interface Loopback81
+ description : Loopback for APN lubemobile : #1832289
+ ip address 172.22.23.45 255.255.255.255
+ no snmp trap link-status
+interface Loopback84
+ description : Loopback for APN ssc : #1577964
+ ip address 172.22.23.32 255.255.255.255
+ no snmp trap link-status
+interface Loopback86
+ description : Loopback for APN expeditors : #1578666
+ ip address 172.22.23.33 255.255.255.255
+ no snmp trap link-status
+interface Loopback87
+ description : Loopback for APN q4b1s : #1859241
+ ip address 172.22.23.56 255.255.255.255
+ no snmp trap link-status
+interface Loopback89
+ description : Loopback for APN corporate : #1580602
+ ip address 172.22.23.34 255.255.255.255
+ no snmp trap link-status
+interface Loopback91
+ description : Loopback for APN owireless : #1832106
+ ip address 172.22.23.51 255.255.255.255
+ no snmp trap link-status
+interface Loopback97
+ description : Loopback for APN cppsuneft : #1879728
+ ip address 172.22.23.37 255.255.255.255
+ no snmp trap link-status
+interface Loopback101
+ description : Loopback for APN reino : #1852161
+ ip address 172.22.23.38 255.255.255.255
+ no snmp trap link-status
+interface Loopback104
+ description : Loopback for APN tomtombusiness : #1819910
+ ip address 172.22.23.40 255.255.255.255
+ no snmp trap link-status
+interface Loopback114
+ description : Loopback for APN om2msatransport : #1598106
+ ip address 172.22.23.41 255.255.255.255
+ no snmp trap link-status
+interface Loopback121
+ description : Loopback for APN qsa : #1827025
+ ip address 172.22.23.52 255.255.255.255
+ no snmp trap link-status
+interface Loopback122
+ description : Loopback for APN goodyear : #1601256
+ ip address 172.22.23.46 255.255.255.255
+ no snmp trap link-status
+interface Loopback123
+ description : Loopback for APN boroondaraoptus : #1833183
+ ip address 172.22.23.47 255.255.255.255
+ no snmp trap link-status
+interface Loopback125
+ description : Loopback for APN smarttrack : #1599239
+ ip address 172.22.23.48 255.255.255.255
+ no snmp trap link-status
+interface Loopback127
+ description : Loopback for APN databank : #1830409
+ ip address 172.22.23.49 255.255.255.255
+ no snmp trap link-status
+interface Loopback131
+ description : Loopback for APN brtwip4vpnd : #1600383
+ ip address 172.22.23.42 255.255.255.255
+ no snmp trap link-status
+interface Loopback136
+ description : Loopback for APN radiodata : #1608726
+ ip address 172.22.23.54 255.255.255.255
+ no snmp trap link-status
+interface Loopback137
+ description : Loopback for APN oagoptusapn : #1558639
+ ip address 172.22.23.55 255.255.255.255
+ no snmp trap link-status
+interface Loopback138
+ description : Loopback for APN k7w2v : #1578474
+ ip address 172.22.23.57 255.255.255.255
+ no snmp trap link-status
+interface Loopback139
+ description : Loopback for APN myfleet : #1843028
+ ip address 172.22.23.58 255.255.255.255
+ no snmp trap link-status
+interface Loopback141
+ description : Loopback for APN imarda-au-optus : #1893955
+ ip address 172.22.23.36 255.255.255.255
+ no snmp trap link-status
+interface Loopback144
+ description : Loopback for APN dhl : #1840618
+ ip address 172.22.23.60 255.255.255.255
+ no snmp trap link-status
+interface Loopback149
+ description : Loopback for APN fxastatic : #1619612
+ ip address 172.22.23.61 255.255.255.255
+ no snmp trap link-status
+interface Loopback150
+ description : Loopback for APN fxauct : #1619623
+ ip address 172.22.23.62 255.255.255.255
+ no snmp trap link-status
+interface Loopback158
+ description : Loopback for APN fratechip : #1879865
+ ip address 172.22.23.64 255.255.255.255
+ no snmp trap link-status
+interface Loopback163
+ description : Loopback for APN om2mils : #1879841
+ ip address 172.22.23.66 255.255.255.255
+ no snmp trap link-status
+interface Loopback164
+ description : Loopback for APN transactplus : #1897562
+ ip address 172.22.23.65 255.255.255.255
+ no snmp trap link-status
+interface Loopback165
+ description : Loopback for APN transactplustest : #1605028
+ ip address 172.22.23.67 255.255.255.255
+interface Loopback168
+ description : Loopback for APN anzbankwip : #1621313
+ ip address 172.22.23.68 255.255.255.255
+ no snmp trap link-status
+interface Loopback170
+ description : Loopback for APN fxa.wip.optus.net.au : #1829804
+ ip address 172.22.23.69 255.255.255.255
+ no snmp trap link-status
+interface Loopback174
+ description : Loopback for APN om2musw2a : #1651544
+ ip address 172.22.23.70 255.255.255.255
+ no snmp trap link-status
+interface Loopback180
+ description : Loopback for APN cpptransacttest : #1835991
+ ip address 172.22.23.71 255.255.255.255
+ no snmp trap link-status
+interface Loopback182
+ description : Loopback for APN cpptransactbendg : #1651132
+ ip address 172.22.23.72 255.255.255.255
+ no snmp trap link-status
+interface Loopback183
+ description : Loopback for APN cpptcustomertest : #1651152
+ ip address 172.22.23.73 255.255.255.255
+ no snmp trap link-status
+interface Loopback184
+ description : Loopback for APN cpptransactsunc : #1839335
+ ip address 172.22.23.74 255.255.255.255
+ no snmp trap link-status
+interface Loopback185
+ description : Loopback for APN cpptransactanz : #1834378
+ ip address 172.22.23.75 255.255.255.255
+ no snmp trap link-status
+interface Loopback186
+ description : Loopback for APN m2mmigration1 : #1676026
+ ip address 172.22.23.76 255.255.255.255
+ no snmp trap link-status
+interface Loopback187
+ description : Loopback for APN brtwip4vpndcr : #1678261
+ ip address 172.22.23.77 255.255.255.255
+ no snmp trap link-status
+interface Loopback191
+ description : Loopback for APN obmdg-dynamic : #1687177
+ ip address 172.22.23.78 255.255.255.255
+ no snmp trap link-status
+interface Loopback195
+ description : Loopback for APN optusrms : #1686494
+ ip address 172.22.23.79 255.255.255.255
+ no snmp trap link-status
+interface Loopback199
+ description : Loopback for APN tycohc : #1852225
+ ip address 172.22.23.80 255.255.255.255
+ no snmp trap link-status
+interface Loopback201
+ description : Loopback for APN qbccapn : #1699854
+ ip address 172.22.23.83 255.255.255.255
+ no snmp trap link-status
+interface Loopback210
+ description : Loopback for APN gaplogistics : #1832449
+ ip address 172.22.23.81 255.255.255.255
+ no snmp trap link-status
+interface Loopback211
+ description : Loopback for APN gpsynergyapn : #1689407
+ ip address 172.22.23.82 255.255.255.255
+ no snmp trap link-status
+interface Loopback215
+ description : Loopback for APN cpptrbenadel : #1879731
+ ip address 172.22.23.85 255.255.255.255
+ no snmp trap link-status
+interface Loopback220
+ description : Loopback for APN lubemobile4g : #1747829
+ ip address 172.22.23.86 255.255.255.255
+ no snmp trap link-status
+interface Loopback221
+ description : Loopback for APN om2mrdc : #1879712
+ ip address 172.22.23.87 255.255.255.255
+ no snmp trap link-status
+interface Loopback225
+ description : Loopback for APN otis.optus : #1769270
+ ip address 172.22.23.89 255.255.255.255
+ no snmp trap link-status
+interface Loopback234
+ description : Loopback for APN m2mvpn1d : #1802987
+ ip address 172.22.23.90 255.255.255.255
+ no snmp trap link-status
+interface Loopback239
+ description : Loopback for APN gleneira : #1806618
+ ip address 172.22.23.91 255.255.255.255
+ no snmp trap link-status
+interface Loopback248
+ description : Loopback for APN gdtmobility : #1854918
+ ip address 172.22.23.92 255.255.255.255
+ no snmp trap link-status
+interface Loopback249
+ description : Loopback for APN om2mdig : #1855082
+ ip address 172.22.23.93 255.255.255.255
+ no snmp trap link-status
+interface Loopback252
+ description : Loopback for APN om2mbrt2 : #1864238
+ ip address 172.22.23.95 255.255.255.255
+ no snmp trap link-status
+interface Loopback257
+ description : Loopback for APN om2mbrt4 : #1864286
+ ip address 172.22.23.96 255.255.255.255
+ no snmp trap link-status
+interface Loopback258
+ description : Loopback for APN brtwip3vpndsae1 : #1873515
+ ip address 172.22.23.97 255.255.255.255
+ no snmp trap link-status
+interface Loopback259
+ description : Loopback for APN brtwip3vpndsae2 : #1873529
+ ip address 172.22.23.98 255.255.255.255
+ no snmp trap link-status
+interface Loopback260
+ description : Loopback for APN om2mbrt2sae : #1872109
+ ip address 172.22.23.99 255.255.255.255
+ no snmp trap link-status
+interface Loopback262
+ description : Loopback for APN om2mvirfse : #1870850
+ ip address 172.22.23.100 255.255.255.255
+ no snmp trap link-status
+interface Loopback263
+ description : Loopback for APN cbaeftpos : #1884213
+ ip address 172.22.23.101 255.255.255.255
+ no snmp trap link-status
+interface Loopback271
+ description : Loopback for APN aspect : #1925676
+ ip address 172.22.23.102 255.255.255.255
+ no snmp trap link-status
+interface Loopback273
+ description : Loopback for APN westpacvfpos : #1925832
+ ip address 172.22.23.103 255.255.255.255
+ no snmp trap link-status
+interface Loopback275
+ description : Loopback for APN om2mdigeu : #1934788
+ ip address 172.22.23.104 255.255.255.255
+ no snmp trap link-status
+interface Loopback277
+ description : Loopback for APN ebc-privapn : #1951400
+ ip address 172.22.23.105 255.255.255.255
+ no snmp trap link-status
+interface Loopback281
+ description : Loopback for APN coates1 : #3605761
+ ip address 172.22.23.106 255.255.255.255
+ no snmp trap link-status
+interface Loopback285
+ description : Loopback for APN jasper-radius : #3764545
+ ip address 172.22.23.107 255.255.255.255
+ no snmp trap link-status
+interface Loopback292
+ description : Loopback for APN mhredkidneyapn : #3787974
+ ip address 172.22.23.108 255.255.255.255
+ no snmp trap link-status
+interface Loopback293
+ description : Loopback for APN vpn.gnd2air : #3849944
+ ip address 172.22.23.109 255.255.255.255
+ no snmp trap link-status
+interface Loopback298
+ no ip address
+interface Loopback300
+ no ip address
+interface Loopback304
+ description : Loopback for APN om2mtyco : #4904517
+ ip address 172.22.23.110 255.255.255.255
+ no snmp trap link-status
+interface Loopback1160
+ description : Loopback for APN Exego to Flexi 8 : #1599223
+ ip address 172.22.23.84 255.255.255.255
+ no snmp trap link-status
+interface Loopback11160
+ no ip address
+interface Loopback200011
+ description :: VPDN Source loopback for APN-VRF for BRT CustomerM : #1600282: APN- brtwip3ipsec  ::
+ ip address 172.28.133.11 255.255.255.255
+interface Loopback200012
+ description :: VPDN Source loopback for APN-VRF for BRT CustomerM : #1600380 : APN- brtwip3vpn::
+ ip address 172.28.133.12 255.255.255.255
+interface Loopback200013
+ description :: Source loopback for VPDN Group EPG LUC1 APNs ::
+ ip address 172.28.133.13 255.255.255.255
+interface Loopback200014
+ description :Source loopback for VPDN Group EPG LUC3 APNs:
+ ip address 172.28.133.14 255.255.255.255
+interface Loopback200015
+ description : VPDN Source loopback for APN-VRF cio.wa.gov.au Customer #1659866
+ ip address 172.28.133.15 255.255.255.255
+interface Loopback200016
+ description : VPDN Source loopback for APN-VRF superretail Customer #1832033
+ ip address 172.28.133.16 255.255.255.255
+interface Loopback200017
+ description : VPDN Source loopback for APN-VRF skycity.keno Customer #1829739
+ ip address 172.28.133.17 255.255.255.255
+interface Loopback200021
+ description : VPDN Source loopback for APN-VRF dcs.qld.gov.au Customer #1832458
+ ip address 172.28.133.21 255.255.255.255
+interface Loopback200024
+ description : VPDN Source loopback for APN-VRF workskiloptus Customer #1810430
+ ip address 172.28.133.24 255.255.255.255
+interface Loopback200025
+ description : VPDN Source loopback for APN-VRF lpi-apn Customer #1636730
+ ip address 172.28.133.25 255.255.255.255
+interface Loopback200027
+ description : VPDN Source loopback for APN-VRF fdiatmw01 Customer #1583813
+ ip address 172.28.133.27 255.255.255.255
+interface Loopback200028
+ description : VPDN Source loopback for APN-VRF ba123 Customer #1833110
+ ip address 172.28.133.28 255.255.255.255
+interface Loopback200029
+ description : VPDN Source loopback for APN-VRF tnsicomau Customer #1852000
+ ip address 172.28.133.29 255.255.255.255
+interface Loopback200031
+ description : VPDN Source loopback for APN-VRF boralevolve Customer #1820746
+ ip address 172.28.133.31 255.255.255.255
+interface Loopback200032
+ description :: Source loopback for VPDN Group EPG APN - yeswipplus ::
+ ip address 172.28.133.32 255.255.255.255
+interface Loopback200247
+ description Mobile : 33VSEPG01 : Source address for GRE Tunnel : 1599412 
+ ip address 172.28.133.247 255.255.255.255
+interface Loopback200248
+ description Mobile : 22RREPG01 : address for GRE Tunnel : 1599412
+ ip address 172.28.133.248 255.255.255.255

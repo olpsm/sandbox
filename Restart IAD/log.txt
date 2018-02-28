@@ -1,0 +1,49 @@
+=============================================================
+08-05-2014 15:20:21
+-------------------
+172.16.0.250
+-------------------
+ curr st 
+# 1 [2330020] [FXS] [Idle], Calls[0], Dialed[], ProxyReg[Successful]
+# 2 [3004] [FXS] [Idle], Calls[0], Dialed[], ProxyReg[Disabled]
+FXS Hunting[Disabled]
+FXO Hunting[Disabled]
+DDNS Registration[Disabled]
+Phone Book Manager Registration[Disabled]
+STUN Registration[Disabled][][0]
+UPnP Negotiation[Disabled][][0]
+
+
+
+CURRENT_STATUS OK
+[[/]]
+>  Yes
+Restarting...
+=============================================================
+08-05-2014 15:20:25
+-------------------
+192.168.8.254
+-------------------
+ curr st 
+# 1 [2332043] [FXS] [Idle], Calls[0], Dialed[], ProxyReg[Proceeding]
+# 2 [702] [FXS] [Idle], Calls[0], Dialed[], ProxyReg[Disabled]
+FXS Hunting[Disabled]
+FXO Hunting[Disabled]
+DDNS Registration[Disabled]
+Phone Book Manager Registration[Disabled]
+STUN Registration[Disabled][][0]
+UPnP Negotiation[Disabled][][0]
+
+
+
+CURRENT_STATUS OK
+[[/]]
+>  Yes
+Restarting...
+=============================================================
+08-05-2014 15:20:28
+-------------------
+172.16.0.252
+-------------------
+Error: 
+(<class 'socket.timeout'>, timeout('timed out',), <traceback object at 0x01E6EAA8>)

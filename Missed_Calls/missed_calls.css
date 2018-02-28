@@ -1,0 +1,76 @@
+﻿body{
+   background:#eee9e9
+}
+.tabs {
+    opacity: 0;  /* Прозрачность */
+    visibility: hidden; /* Изначально - спрятан */
+}
+.tab{
+    position:absolute; /* абсолютное позиционирование */
+    visibility: hidden;    /* Изначально - спрятан */
+    top: 74px;
+	z-index: 11;    /* z-index */
+    color:#999999; /* Цвет */
+    font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial; /* Толщина, размер и семейство шрифта */
+	
+}
+.tabs:target+.tab {
+    opacity: 1; /* Убирает прозрачность */
+    visibility: visible; /* Делает видимым */
+}
+
+.tabsLink a{
+      
+    background-color:#999999; /* Цвет */
+    padding:5px; /* Внутренние отступы */
+    font: bold 12pt "Trebuchet MS", tahoma, verdana, arial narrow, arial; /* Толщина, размер и семейство шрифта */
+    color:#ffd; /* Цвет */
+    text-decoration:none; /* Отсутствие нижней линии */
+    
+    /* Округление старт */
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* Округление конец */
+}
+.tabsLink a:focus {
+    color:#000; /* Цвет */
+}
+
+/*.tabs:first-child +.tab{*/
+/*  opacity: 1; /* Убирает прозрачность */
+/*  visibility: visible; /* Делает видимым */
+/*}*/
+
+table{
+
+   /*border-collapse: collapse; /* Убираем двойные границы между ячейками */
+   border: 2px double #999999; /* Рамка вокруг таблицы */
+   /*width: 600px; /* Ширина таблицы */
+}
+
+th{
+   background:grey; /* Цвет фона шапки */
+   color: black; /* Цвет текста */
+   padding: 5px
+}
+
+td{
+   background: #CCCCCC; /* Цвет фона ячеек */
+   color: black; /* Цвет текста */
+}
+#th1{
+	width: 70px; /* Ширина 1 столбца*/
+}
+#th2{
+	width: 50px; /* Ширина 2 столбца*/
+}
+#th3{
+	width: 119px; /* Ширина 3 столбца*/
+}
+#th4{
+	width: 119px; /* Ширина 4 столбца*/
+}
